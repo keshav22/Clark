@@ -1,0 +1,23 @@
+.question {
+  padding: 20px 30px 20px 30px;
+  background-color: #dddddd;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.question-hover{
+    font-style: italic;
+    font-size: 14px;
+    color: gray;
+    margin-top: 5px;
+}
+
+.question-green{
+  color: green !important;
+  background-color: rgb(128, 241, 128) !important;
+}
+
+.question-yellow{
+  color: rgb(255, 174, 0) !important;
+  background-color: rgb(247, 247, 140) !important;
+}
