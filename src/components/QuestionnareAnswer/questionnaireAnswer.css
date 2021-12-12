@@ -1,0 +1,21 @@
+.questionnaire-header-row {
+  background-color: rgb(51, 175, 247);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.questionnaire-header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.extra-margin{
+  margin-top: 20px !important;
+  margin-bottom: 20px;
+}
+
+
+
+  

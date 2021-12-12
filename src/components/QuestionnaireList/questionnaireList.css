@@ -1,0 +1,76 @@
+.questionnaire {
+  padding-top: 20px;
+}
+
+.horizonatal-center {
+  display: flex;
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.questionnaire-description-row{
+  padding-bottom: 20px;
+  border-radius: 8px;
+  color: black;
+}
+
+.questionnaire-answer-mode {
+  background-image: url(https://images.typeform.com/images/DxkpHUnDd8/background/large);
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.input-answer {
+  background: transparent;
+  border: 0;
+  color: gray;
+  width: 100%;
+}
+
+.input-answer:focus {
+  border: 0;
+  outline: 0;
+}
+
+.question-body {
+  color: white;
+}
+
+.question-header-button {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.answer-input {
+  font-size: 20px !important;
+  color: rgb(255, 187, 0);
+}
+
+.question-footer-button {
+  position: absolute;
+  bottom: 0;
+  float: right;
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  justify-content: end;
+}
+
+
+
+
+  

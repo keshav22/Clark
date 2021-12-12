@@ -5,18 +5,9 @@ import "./question.css";
 export default function Question(props) {
   const [question, setQuestion] = useState(props.question);
   const [displayAnswerNow, setDisplayAnswerNow] = useState(false);
-  const [questionAswered, setQuestionAswered] = useState(false);
-
-  useEffect(() => {
-    if (props.value && props.value.length > 0) {
-      setQuestionAswered(true);
-    } else {
-      setQuestionAswered(false);
-    }
-  }, [props.value]);
 
   const getQuestionClass = () => {
-    return `question ${questionAswered ? "question-green" : ""} ${
+    return `question ${props.value ? "question-green" : ""} ${
       props.markedForReview ? "question-yellow" : ""
     }`;
   };
